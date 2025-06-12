@@ -8,6 +8,7 @@ git clone https://github.com/gabriesb/FuriaCHATBot.git
 cd FuriaCHATBot
 
 Passo 2: Criar um bot filho no Telegram
+
 Abra o Telegram e procure pelo usuário BotFather.
 
 Envie o comando /newbot e siga as instruções para criar seu bot filho.
@@ -15,6 +16,7 @@ Envie o comando /newbot e siga as instruções para criar seu bot filho.
 Ao finalizar, o BotFather vai te passar o Token do seu bot — guarde esse token, você vai usar no .env.
 
 Passo 3: Criar o arquivo .env
+
 Na raiz do projeto, crie um arquivo .env com o seguinte conteúdo, substituindo as chaves e tokens pelas suas:
 
 TWITTER_API_KEY=SEU_CODIGO_TWEEPY
@@ -32,18 +34,21 @@ source venv/bin/activate
 venv\Scripts\activate
 
 Passo 5: Instalar dependências manualmente
+
 Como não há requirements.txt, instale as bibliotecas necessárias manualmente. Exemplo comum para bots Telegram com Python:
 
 pip install python-telegram-bot requests python-dotenv
 Se seu projeto usa outras bibliotecas, instale-as conforme necessário.
 
 Passo 6: Rodar o bot
+
 Execute o bot com:
 
 python main.py
 (Substitua main.py pelo nome do script principal, se for diferente.)
 
 Dicas finais
+
 Mantenha seu arquivo .env seguro, não o envie para repositórios públicos.
 
 Para criar outras chaves (Twitter, Giphy, HuggingFace), consulte a documentação oficial de cada serviço.
