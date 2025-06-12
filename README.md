@@ -1,4 +1,4 @@
-FuriaCHATBot - Setup Rápido (Python)
+# FuriaCHATBot - Setup Rápido (Python)
 Este projeto é um bot para Telegram escrito em Python que utiliza várias APIs externas. Para rodar, siga os passos abaixo com atenção.
 
 Passo 1: Clonar o repositório
@@ -6,6 +6,7 @@ No seu terminal, clone o repositório oficial do bot:
 
 git clone https://github.com/gabriesb/FuriaCHATBot.git
 cd FuriaCHATBot
+
 Passo 2: Criar um bot filho no Telegram
 Abra o Telegram e procure pelo usuário BotFather.
 
@@ -49,4 +50,4 @@ Para criar outras chaves (Twitter, Giphy, HuggingFace), consulte a documentaçã
 
 Se precisar descobrir quais bibliotecas o projeto usa, verifique os imports no código-fonte.
 
-Pronto! Seu bot está configurado para rodar. 🚀
+# Pronto! Seu bot está configurado para rodar. 🚀
